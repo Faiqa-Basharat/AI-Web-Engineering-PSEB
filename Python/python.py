@@ -1,11 +1,4 @@
-print("hello!")
-
-# Data types
-# variables
-a = 10
-b = 13
-print(a+b)
-
-x = "Amna"
-y = x
-print(y)
+num = 23
+name = "Amna"
+print(num, type(num))
+print(name, type(name))
