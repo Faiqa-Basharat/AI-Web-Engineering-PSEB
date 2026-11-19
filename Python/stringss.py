@@ -2,7 +2,7 @@ a = "Hola"
 print(a)
 
 #multiline string
-a =  ''' Hello freidns.
+a =  ''' Hello friends.
 I hope you are doing great...
 How has been the class?'''
 # same can be done with double quotes three times
