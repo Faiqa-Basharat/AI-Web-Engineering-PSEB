@@ -107,8 +107,13 @@ print(passed_students)
 # finding second highest
 # Exercise 11: Second highest scores = [45, 82, 67, 91, 73] Find the second highest score with a loop only. Don't use sort() or max().
 scores = [45, 82, 67, 91, 73] 
-second_highest = scores[0]
-for marks in scores:
-    if marks < len(scores):
-     second_highest.append(marks)
+highest = scores[-1]
+for score in scores:
+    if score > highest:
+     highest = score
+
+second_highest = -1
+for score in scores:
+   if score > second_highest and score != highest:
+      second_highest = score
 print(second_highest)
