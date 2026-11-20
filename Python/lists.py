@@ -42,3 +42,8 @@ else:
     print("Karachi is not in the list.")
 
 # for loop
+for city in cities:
+    print(city, end = ".")
+
+# range
+print(list(range(2,56))) 
