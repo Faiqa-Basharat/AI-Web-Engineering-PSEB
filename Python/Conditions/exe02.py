@@ -1,3 +1,6 @@
+# Take a person’s age. At 18 or above, print “Eligible to vote”. Otherwise, print how many years are left.
+
+
 age = int(input("enter your age :"))
 newAge = 0
 if age >= 18:

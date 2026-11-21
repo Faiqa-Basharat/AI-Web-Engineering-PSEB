@@ -1,3 +1,5 @@
+# Take the balance and the package price. If the balance is enough, print “Package activated” and the remaining balance. Otherwise, print how much more is needed.
+
 balance = int(input("Enter mobile balance: "))
 price = int(input("Enter price: "))
 

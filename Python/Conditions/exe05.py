@@ -1,3 +1,6 @@
+# Take the temperature in °C and print the advice. Temperature (°C) Print Below 10 10 to 25 26 to 35 Cold, wear a jacket Pleasant Warm Above 35 Very hot, stay hydrated
+
+
 temp = int(input("Enter temperature :"))
 if temp < 10 :
   print("Cold, wear a jacket")

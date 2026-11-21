@@ -1,3 +1,6 @@
+# Take three sides. If any two sides add up to no more than the third, print “Not a valid triangle”. Otherwise print its type: Equilateral (all equal), Isosceles (two equal) or Scalene (none equal).
+
+
 a = int(input("Enter first side of triangle:"))
 b = int(input("Enter second side of triangle:"))
 c = int(input("Enter third side of triangle:"))

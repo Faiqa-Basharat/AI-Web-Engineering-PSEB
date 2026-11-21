@@ -1,3 +1,6 @@
+# Take a number from 1 to 7 and print the day (1 = Monday … 7 = Sunday). Any other number prints “Invalid day”.
+
+
 num = int(input("Enter number :"))
 if num > 7 and num < 1 :
  print("Invalid number")
